@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="VVCE"
+        android:background="#00ff00"
+        android:padding="25dp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+
+
+
+        />
+     <ImageView
+         android:layout_width="250dp"
+         android:layout_height="250dp"
+         android:src="@drawable/index"
+         android:padding="50dp"
+         android:layout_margintop="25sp"
+         android:layout_marginRight="100sp"
+         android:layout_marginLeft="56sp"
+
+
+
+         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Click to enter into VVCE"
+        android:layout_marginLeft="125sp"
+        android:layout_marginRight="100sp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp" />
+   
+
+</LinearLayout>
